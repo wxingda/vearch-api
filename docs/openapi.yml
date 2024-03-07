@@ -7,7 +7,7 @@ info:
     url: http://www.apache.org/licenses/LICENSE-2.0.html
   description: API for sending dynamic records to the Vearch database.
 servers:
-  - url: 'http://{ROUTER_URL}:{ROUTER_PORT}'
+  - url: '{ROUTER_URL}:{ROUTER_PORT}'
     variables:
         ROUTER_URL:
           default: 'localhost'
